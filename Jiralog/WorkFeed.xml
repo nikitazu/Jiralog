@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-16"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:atlassian="http://streams.atlassian.com/syndication/general/1.0">
+  <id>http://localhost:8080/activity?maxResults=10&amp;streams=user+IS+nzuev&amp;os_authType=basic&amp;title=undefined</id>
+  <link href="http://localhost:8080/activity?maxResults=10&amp;streams=user+IS+nzuev&amp;os_authType=basic&amp;title=undefined" rel="self" />
+  <title type="text">undefined</title>
+  <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  <updated>2013-08-22T17:17:12.522Z</updated>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:d8c844be-bec4-3356-b995-23e98ef7767b</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; updated 2 fields of       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <content type="html">&lt;ul class="updates activity-list"&gt;
+  &lt;li&gt;Changed the Remaining Estimate to '1 year, 47 weeks, 4 days, 4 hours, 50 minutes'
+  &lt;li&gt;Logged '2 hours'
+&lt;/ul&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:10:43.087Z</published>
+    <updated>2013-08-22T17:10:43.087Z</updated>
+    <link href="http://localhost:8080/browse/TEST-1" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:f36f3285-ef8f-3a30-bc17-fb0b79e4f46e</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; commented on       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <content type="html">&lt;blockquote&gt;
+   &lt;p&gt;qqq&lt;/p&gt;   &lt;/blockquote&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:10:29.938Z</published>
+    <updated>2013-08-22T17:10:29.938Z</updated>
+    <category term="comment" />
+    <link href="http://localhost:8080/browse/TEST-1?focusedCommentId=10001&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-10001" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <thr:in-reply-to ref="urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:88525e35-6b0a-36a1-bd04-f159b6b96729</id>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1?focusedCommentId=10001&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-10001" />
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:3cc621a1-7d06-31d5-bc14-cbe2f3beabf2</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; started progress on       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:10:21.425Z</published>
+    <updated>2013-08-22T17:10:21.425Z</updated>
+    <category term="started" />
+    <link href="http://localhost:8080/browse/TEST-1" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/transition</activity:verb>
+    <activity:verb>http://streams.atlassian.com/syndication/verbs/jira/start</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:thr="http://purl.org/syndication/thread/1.0" xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:fd67321f-8b57-3423-b793-64c216c4314a</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; commented on       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <content type="html">&lt;blockquote&gt;
+   &lt;p&gt;totoototot&lt;br&gt;
+fsfds&lt;/p&gt;   &lt;/blockquote&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:10:09.044Z</published>
+    <updated>2013-08-22T17:10:09.044Z</updated>
+    <category term="comment" />
+    <link href="http://localhost:8080/browse/TEST-1?focusedCommentId=10000&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-10000" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <thr:in-reply-to ref="urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:19f7d4a7-dcd7-3a70-97ac-ac5855b3f389</id>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1?focusedCommentId=10000&amp;page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-10000" />
+      <activity:object-type>http://activitystrea.ms/schema/1.0/comment</activity:object-type>
+    </activity:object>
+    <activity:target>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:target>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:20220fce-8b84-3db4-803b-479cb2d56ea3</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; updated 2 fields of       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <content type="html">&lt;ul class="updates activity-list"&gt;
+  &lt;li&gt;Changed the Remaining Estimate to '1 year, 47 weeks, 4 days, 6 hours, 50 minutes'
+  &lt;li&gt;Logged '10 minutes'
+&lt;/ul&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:10:00.518Z</published>
+    <updated>2013-08-22T17:10:00.518Z</updated>
+    <link href="http://localhost:8080/browse/TEST-1" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:b86c4a33-f827-3ba5-84e8-a9d41076d988</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; updated 2 fields of       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <content type="html">&lt;ul class="updates activity-list"&gt;
+  &lt;li&gt;Changed the Remaining Estimate to '1 year, 47 weeks, 4 days, 7 hours'
+  &lt;li&gt;Logged '1 hour'
+&lt;/ul&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:09:50.703Z</published>
+    <updated>2013-08-22T17:09:50.703Z</updated>
+    <link href="http://localhost:8080/browse/TEST-1" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+    <title type="html">&lt;a href="http://localhost:8080/secure/ViewProfile.jspa?name=nzuev" class="activity-item-user activity-item-author"&gt;Nikita Zuev&lt;/a&gt; created       &lt;a href="http://localhost:8080/browse/TEST-1"&gt;TEST-1 - doit&lt;/a&gt;
+  </title>
+    <content type="html">&lt;div class="user-content"&gt;
+  &lt;p&gt;descript&lt;/p&gt; &lt;/div&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <uri>http://localhost:8080/secure/ViewProfile.jspa?name=nzuev</uri>
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=16" media:height="16" media:width="16" />
+      <link xmlns:media="http://purl.org/syndication/atommedia" rel="photo" href="http://localhost:8080/secure/useravatar?avatarId=10122&amp;s=48" media:height="48" media:width="48" />
+      <usr:username>nzuev</usr:username>
+      <activity:object-type>http://activitystrea.ms/schema/1.0/person</activity:object-type>
+    </author>
+    <published>2013-08-22T17:08:54.000Z</published>
+    <updated>2013-08-22T17:08:54.000Z</updated>
+    <category term="created" />
+    <link href="http://localhost:8080/browse/TEST-1" rel="alternate" />
+    <link href="http://localhost:8080/images/icons/issuetypes/task.png" rel="http://streams.atlassian.com/syndication/icon" title="Task" />
+    <link href="http://localhost:8080/s/ru_RU-rin846-1988229788/6106/3/1.0/_/download/resources/jira.webresources:global-static/wiki-renderer.css" rel="http://streams.atlassian.com/syndication/css" />
+    <link href="http://localhost:8080/plugins/servlet/streamscomments/issues/TEST-1" rel="http://streams.atlassian.com/syndication/reply-to" />
+    <generator uri="http://localhost:8080" />
+    <atlassian:application>com.atlassian.jira</atlassian:application>
+    <activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+    <activity:object>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+      <link rel="alternate" href="http://localhost:8080/browse/TEST-1" />
+      <activity:object-type>http://streams.atlassian.com/syndication/types/issue</activity:object-type>
+    </activity:object>
+    <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  </entry>
+</feed>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-16"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:atlassian="http://streams.atlassian.com/syndication/general/1.0">
+  <title type="text">undefined</title>
+  <atlassian:timezone-offset>+0400</atlassian:timezone-offset>
+  <updated>2013-08-22T17:17:12.522Z</updated>
+  
+  <!--- log work -->
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:d8c844be-bec4-3356-b995-23e98ef7767b</id>
+    <content type="html">&lt;ul class="updates activity-list"&gt;
+  &lt;li&gt;Changed the Remaining Estimate to '1 year, 47 weeks, 4 days, 4 hours, 50 minutes'
+  &lt;li&gt;Logged '2 hours'
+&lt;/ul&gt;
+</content>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <usr:username>nzuev</usr:username>
+    </author>
+    <published>2013-08-22T17:10:43.087Z</published>
+    <updated>2013-08-22T17:10:43.087Z</updated>
+    <activity:verb>http://activitystrea.ms/schema/1.0/update</activity:verb>
+    <activity:object>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+    </activity:object>
+  </entry>
+  
+  <!--- started -->
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:3cc621a1-7d06-31d5-bc14-cbe2f3beabf2</id>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <usr:username>nzuev</usr:username>
+    </author>
+    <published>2013-08-22T17:10:21.425Z</published>
+    <updated>2013-08-22T17:10:21.425Z</updated>
+    <category term="started" />
+    <activity:object>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+    </activity:object>
+  </entry>
+  
+  <!--- skip comment -->
+  <entry>
+    <category term="comment" />
+  </entry>
+  
+  <!--- created -->
+  <entry xmlns:activity="http://activitystrea.ms/spec/1.0/">
+    <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+    <author xmlns:usr="http://streams.atlassian.com/syndication/username/1.0">
+      <name>Nikita Zuev</name>
+      <email>nikitazu@gmail.com</email>
+      <usr:username>nzuev</usr:username>
+    </author>
+    <published>2013-08-22T17:08:54.000Z</published>
+    <updated>2013-08-22T17:08:54.000Z</updated>
+    <category term="created" />
+    <activity:object>
+      <id>urn:uuid:4f67daf2-3dbd-3c92-b783-fb1b8ceb0cfd</id>
+      <title type="text">TEST-1</title>
+      <summary type="text">doit</summary>
+    </activity:object>
+  </entry>
+</feed>
